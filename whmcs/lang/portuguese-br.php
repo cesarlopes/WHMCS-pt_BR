@@ -337,7 +337,7 @@ $_LANG['domainregisterns'] = "Registrar Nameservers";
 $_LANG['domainregisternscurrentip'] = "Endereço IP atual";
 $_LANG['domainregisternsdel'] = "Apague um NameServer";
 $_LANG['domainregisternsdelsuccess'] = "O nameserver  foi excluído com sucesso";
-$_LANG['domainregisternsexplanation'] = "A partir daqui você pode criar e gerenciar nameservers personalizados para seu domínio (ex. NS1.example.com, NS2.example.com...).";
+$_LANG['domainregisternsexplanation'] = "A partir daqui você pode criar e gerenciar nameservers personalizados para seu domínio (ex. ns1.dominio.com, ns2.dominio.com...).";
 $_LANG['domainregisternsip'] = "Endereço IP";
 $_LANG['domainregisternsmod'] = "Modifique o IP do NameServer";
 $_LANG['domainregisternsmodsuccess'] = "O nameserver foi modificado com sucesso";
@@ -639,7 +639,7 @@ $_LANG['ordersecure'] = "Este procedimento é feito em um ambiente seguro e por 
 $_LANG['ordersecure2'] = "será gravado.";
 $_LANG['orderserverhostname'] = "Servidor";
 $_LANG['orderservernameservers'] = "Nameservers";
-$_LANG['orderservernameserversdescription'] = "Os prefixos que você digitar aqui irão determinar os nameservers para seu servidor. Ex: ns1.example.com and ns2.example.com";
+$_LANG['orderservernameserversdescription'] = "Os prefixos que você digitar aqui irão determinar os nameservers para seu servidor. Ex: ns1.dominio.com e ns2.dominio.com";
 $_LANG['orderservernameserversprefix1'] = "Prefixo 1";
 $_LANG['orderservernameserversprefix2'] = "Prefixo 2";
 $_LANG['orderserverrootpassword'] = "Senha";
@@ -916,7 +916,7 @@ $_LANG['domainrenewalsdaysago'] = "Dias Atrás";
 $_LANG['invoicespartialpayments'] = "Pagamentos Parciais";
 $_LANG['invoicestotaldue'] = "Total Vencido";
 
-$_LANG['masspaytitle'] = "Pagamento em Massa";
+$_LANG['masspaytitle'] = "Unificar Faturas";//"Pagamento em Massa";
 $_LANG['masspaydescription'] = "Abaixo segue um resumo das faturas selecionadas e o total vencido para pagamento de todas. Para realizar o pagamento, por favor, escolha a opção desejada.";
 $_LANG['masspayselected'] = "Pagar Selecionados";
 $_LANG['masspayall'] = "Pagar Todos";
@@ -1247,7 +1247,7 @@ $_LANG['emailstagline'] = "Aqui está uma cópia dos e-mails recentes que enviam
 $_LANG['supportticketsintro'] = "Enviar e rastrear tickets";
 $_LANG['addfundsintro'] = "Adicionar fundos";
 $_LANG['registerintro'] = "Criar uma conta conosco";
-$_LANG['masspayintro'] = "Pagar todas as faturas listadas abaixo em uma única transação, escolhendo a forma de pagamento";
+$_LANG['masspayintro'] = "Você pode pagar todas as faturas listadas abaixo em uma única transação";
 $_LANG['networkstatusintro'] = "Informações do Status do Serviço e Anúncios de Rede";
 
 $_LANG['creditcardyourinfo'] = "Informações de Pagamento";
@@ -1302,7 +1302,7 @@ $_LANG['creditcardexpirydateinvalid'] = "A data de expiração deve ser colocada
 
 $_LANG['domaincheckerchoosedomain'] = "Escolha um Domínio...";
 $_LANG['domaincheckerchecknewdomain'] = "Verificar disponibilidade de um Domínio";
-$_LANG['domaincheckerdomainexample'] = " ex. example.com";
+$_LANG['domaincheckerdomainexample'] = " ex. dominio.com";
 $_LANG['domaincheckerhostingonly'] = "Assinar Somente Produto/Serviço";
 $_LANG['domaincheckerenterdomain'] = "Comece sua experiência na web colocando o domínio que você deseja registrar, transferir ou somente assinar produtos/serviços abaixo...";
 
@@ -1515,9 +1515,9 @@ $_LANG['domaincontactdetails']['Phone'] = "Fone";
 $_LANG['domaincontactdetails']['Phone Number'] = "Telefone";
 $_LANG['domaincontactdetails']['Fax'] = "Fax";
 
-$_LANG['serverhostnameexample'] = "eg. server1(.example.com)";
-$_LANG['serverns1prefixexample'] = "eg. ns1(.example.com)";
-$_LANG['serverns2prefixexample'] = "eg. ns2(.example.com)";
+$_LANG['serverhostnameexample'] = "ex. servidor(.dominio.com)";
+$_LANG['serverns1prefixexample'] = "ex. ns1(.dominio.com)";
+$_LANG['serverns2prefixexample'] = "ex. ns2(.dominio.com)";
 
 $_LANG['hosting'] = "Hospedagem";
 
@@ -1612,7 +1612,6 @@ $_LANG['actions'] = "Ações";
 
 $_LANG['upgradedowngradeshort'] = "Up/Downgrade";
 
-$_LANG['masspayintro'] = "Pagar todas as faturas listadas abaixo em uma única transação, escolhendo a forma de pagamento";
 $_LANG['masspaymentselectgateway'] = "Selecione a forma de pagamento";
 
 $_LANG['ticketfeedbackrequest'] = "Feedback solicitado";
@@ -1633,7 +1632,7 @@ $_LANG['nodomainextensions'] = "Não existem extensões de domínio atualmente c
 
 $_LANG['homebegin'] = "Comece a busca por seu nome de domínio perfeito ...";
 $_LANG['howcanwehelp'] = "Como podemos ajudar hoje?";
-$_LANG['exampledomain'] = "eg. example.com";
+$_LANG['exampledomain'] = "ex. dominio.com";
 $_LANG['buyadomain'] = "Comprar um domínio";
 $_LANG['orderhosting'] = "Hospedagem";
 $_LANG['makepayment'] = "Fazer pagamento";
@@ -1817,7 +1816,7 @@ $_LANG['domaincheckeradding'] = "Adicionando";
 $_LANG['domaincheckeradded'] = "Adicionado";
 $_LANG['domaincheckernomoresuggestions'] = "Isso é todos os resultados que temos! Se você ainda não encontrou o que você está procurando, por favor tente um termo de pesquisa diferente ou palavra-chave.";
 $_LANG['domaincheckerunabletooffertld'] = "Infelizmente nós somos incapazes de registrar este TLD neste momento";
-$_LANG['domaincheckerbulkplaceholder'] = "Digite até 20 nomes de domínio.\nCada nome deve estar em uma linha separada.\nExemplos:\nexample.com\nexample.net";
+$_LANG['domaincheckerbulkplaceholder'] = "Digite até 20 nomes de domínio.\nCada nome deve estar em uma linha separada.\nExemplos:\ndominio.com\ndominio.net";
 
 $_LANG['domainchecker']['suggestiontakentitle'] = "Domínio Indisponível";
 $_LANG['domainchecker']['suggestiontakenmsg'] = "Infelizmente, o domínio que você selecionou não está disponível. Isso às vezes pode ocorrer se o domínio foi registrado recentemente. Por favor, volte e escolha um outro domínio.";
@@ -1957,7 +1956,7 @@ $_LANG['orderForm']['addedToCartRemove'] = "Adicionado ao carrinho ( Remover )";
 $_LANG['orderForm']['configureDesiredOptions'] = "Configure as opções desejadas e continue a verificação geral.";
 $_LANG['orderForm']['haveQuestionsContact'] = "Tem dúvidas ? Entre em contato com nossa equipe de vendas para obter ajuda.";
 $_LANG['orderForm']['haveQuestionsClickHere'] = "Clique aqui";
-$_LANG['orderForm']['use'] = "uso";
+$_LANG['orderForm']['use'] = "Usar";
 $_LANG['orderForm']['check'] = "Verificar";
 $_LANG['orderForm']['transfer'] = "Transferir";
 $_LANG['orderForm']['domainAddedToCart'] = "Este domínio foi adicionado ao seu carrinho.";
@@ -2009,7 +2008,7 @@ $_LANG['insufficientstockmessage'] = "Estamos atualmente com estoque baixo em de
 $_LANG['only'] = "Somente";
 $_LANG['startingat'] = "Começando às";
 
-$_LANG['yourdomainplaceholder'] = "example";
+$_LANG['yourdomainplaceholder'] = "dominio";
 $_LANG['yourtldplaceholder'] = "com";
 
 $_LANG['subaccountpermsproductsso'] = "Execute o Sign-On Individual";
@@ -2048,7 +2047,7 @@ $_LANG['markdown']['genericListItem'] = "Item genérico da lista";
 $_LANG['markdown']['numberedListItem'] = "Item da lista numerada";
 $_LANG['markdown']['links'] = "Links";
 $_LANG['markdown']['textToDisplay'] = "Texto a ser exibido";
-$_LANG['markdown']['exampleLink'] = "http://www.examplo.com.br";
+$_LANG['markdown']['exampleLink'] = "http://www.dominio.com.br";
 $_LANG['markdown']['quotes'] = "Cotações";
 $_LANG['markdown']['thisIsAQuote'] = "Esta é uma cotação.";
 $_LANG['markdown']['quoteMultipleLines'] = "Pode abranger várias linhas!";
