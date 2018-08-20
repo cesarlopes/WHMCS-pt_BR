@@ -66,7 +66,7 @@ $_LANG['alreadyregistered'] = "Já é registrado?";
 $_LANG['announcementsdescription'] = "Ver últimas notícias e anúncios";
 $_LANG['announcementsnone'] = "Não há nenhuma notícia ou anúncio a ser exibido";
 $_LANG['announcementsrss'] = "Ver RSS Feed";
-$_LANG['announcementstitle'] = "Anúncios";
+$_LANG['announcementstitle'] = "Notícias";
 $_LANG['bannedbanexpires'] = "Bloqueio Expira";
 $_LANG['bannedbanreason'] = "Razão do Bloqueio";
 $_LANG['bannedhasbeenbanned'] = "foi bloqueado";
@@ -483,7 +483,7 @@ $_LANG['knowledgebaseArticleRatingThanks'] = "Obrigado por qualificar o artigo p
 $_LANG['language'] = "Idioma";
 $_LANG['latefee'] = "Juros por atraso";
 $_LANG['latefeeadded'] = "Adicionado";
-$_LANG['latestannouncements'] = "Últimos Anúncios";
+$_LANG['latestannouncements'] = "Últimos Notícias";
 $_LANG['loginbutton'] = "Entrar";
 $_LANG['loginemail'] = "E-mail";
 $_LANG['loginforgotten'] = "Esqueceu sua Senha?";
@@ -1248,7 +1248,7 @@ $_LANG['supportticketsintro'] = "Enviar e rastrear tickets";
 $_LANG['addfundsintro'] = "Adicionar fundos";
 $_LANG['registerintro'] = "Criar uma conta conosco";
 $_LANG['masspayintro'] = "Você pode pagar todas as faturas listadas abaixo em uma única transação";
-$_LANG['networkstatusintro'] = "Informações do Status do Serviço e Anúncios de Rede";
+$_LANG['networkstatusintro'] = "Informações do Status do Serviço e Status de Rede";
 
 $_LANG['creditcardyourinfo'] = "Informações de Pagamento";
 $_LANG['ourlatestnews'] = "Nossas Últimas Notícias";
@@ -1546,7 +1546,7 @@ $_LANG['ssofatalerror'] = "Ocorreu um erro fatal. Entre em contato com o suporte
 
 $_LANG['announcementschoosemonth'] = "Escolha o mês";
 $_LANG['announcementsbymonth'] = "Por Mês";
-$_LANG['announcementsolder'] = "Anúncios Antigos";
+$_LANG['announcementsolder'] = "Notícias Antigas";
 $_LANG['createnewcontact'] = "Novo Contato";
 $_LANG['due'] = "Não Pago";
 $_LANG['affiliatessignups'] = "Número de Assinaturas";
@@ -1639,9 +1639,9 @@ $_LANG['makepayment'] = "Fazer pagamento";
 $_LANG['getsupport'] = "Obter Suporte";
 
 $_LANG['news'] = "Notícias";
-$_LANG['allthelatest'] = "Tudo a partir";
+$_LANG['allthelatest'] = "Tudo que acontece na ";
 $_LANG['readmore'] = "Leia mais...";
-$_LANG['noannouncements'] = "Não há anúncios para mostrar";
+$_LANG['noannouncements'] = "Não há notícias para mostrar";
 
 $_LANG['kbsearchexplain'] = "Esta com alguma dúvida? Pesquise aqui!";
 $_LANG['readyforquestions'] = "Estamos prontos e esperando por suas perguntas";
