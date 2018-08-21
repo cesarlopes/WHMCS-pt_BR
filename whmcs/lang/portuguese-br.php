@@ -455,15 +455,15 @@ $_LANG['invoicesunpaid'] = "Em aberto";
 $_LANG['invoicesdraft'] = "Rascunho";
 $_LANG['invoicesview'] = "Ver Fatura";
 $_LANG['jobtitle'] = "Cargo";
-$_LANG['kbsuggestions'] = "Sugestões para Base de Conhecimento";
-$_LANG['kbsuggestionsexplanation'] = "Os seguintes artigos foram encontrados na base de conhecimento e podem responder sua pergunta. Por favor verifique-os antes de enviar.";
+$_LANG['kbsuggestions'] = "Sugestões para Central de Ajuda";
+$_LANG['kbsuggestionsexplanation'] = "Os seguintes artigos foram encontrados na Central de Ajuda e podem responder sua pergunta. Por favor verifique-os antes de enviar.";
 $_LANG['knowledgebasearticles'] = "Artigos";
 $_LANG['knowledgebasecategories'] = "Categorias";
 $_LANG['nokbcategories'] = "Não existem categorias";
-$_LANG['knowledgebasedescription'] = "Navegue pela Base de Conhecimento para ver as Perguntas Mais Freqüentes";
+$_LANG['knowledgebasedescription'] = "Navegue pela Central de Ajuda para ver as Perguntas Mais Freqüentes";
 $_LANG['knowledgebasefavorites'] = "Adicionar aos Favoritos";
 $_LANG['knowledgebasehelpful'] = "Esta resposta lhe foi útil?";
-$_LANG['knowledgebaseintrotext'] = "A Base de Conhecimento é organizada por categorias. Selecione uma categoria abaixo ou pesquise a Base de Conhecimento para solucionar sua dúvida.";
+$_LANG['knowledgebaseintrotext'] = "A Central de Ajuda é organizada por categorias. Selecione uma categoria abaixo ou pesquise a Central de Ajuda para solucionar sua dúvida.";
 $_LANG['knowledgebasemore'] = "Mais";
 $_LANG['knowledgebaseno'] = "Não";
 $_LANG['knowledgebasenoarticles'] = "Nenhum Artigo Encontrado";
@@ -474,7 +474,7 @@ $_LANG['knowledgebaserating'] = "Avaliação:";
 $_LANG['knowledgebaseratingtext'] = "Usuários acharam útil";
 $_LANG['knowledgebaserelated'] = "Artigos Relacionados";
 $_LANG['knowledgebasesearch'] = "Pesquisar";
-$_LANG['knowledgebasetitle'] = "Base de Conhecimento";
+$_LANG['knowledgebasetitle'] = "Central de Ajuda";
 $_LANG['knowledgebaseviews'] = "Visualizações";
 $_LANG['knowledgebasevote'] = "Voto";
 $_LANG['knowledgebasevotes'] = "Votos";
@@ -1801,7 +1801,7 @@ $_LANG['blankCustomField'] = "(nenhum valor)";
 $_LANG['viewAll'] = "Ver todos";
 $_LANG['moreDetails'] = "Mais detalhes";
 
-$_LANG['clientHomeSearchKb'] = "Tire suas duvidas, pesquise em nossa base de conhecimento";
+$_LANG['clientHomeSearchKb'] = "Tire suas duvidas, pesquise em nossa Central de Ajuda";
 
 $_LANG['whoisContactWarning'] = "É importante para manter suas informações de contato WHOIS domínio up-to-date em todos os momentos para evitar perder o controle do seu domínio.";
 
