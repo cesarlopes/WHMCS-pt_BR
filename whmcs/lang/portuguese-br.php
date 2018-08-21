@@ -1196,7 +1196,7 @@ $_LANG['navservicesplaceorder'] = "Pedidos";
 $_LANG['navdomains'] = "Domínios";
 $_LANG['navrenewdomains'] = "Renovar Domínios";
 $_LANG['navregisterdomain'] = "Registrar um novo Domínio";
-$_LANG['navtransferdomain'] = "Transferir Domínios para Nós";
+$_LANG['navtransferdomain'] = "Transferir Domínio(s)";
 $_LANG['navdomainsearch'] = "Procurar Domínio";
 $_LANG['navbilling'] = "Fatura";
 $_LANG['navinvoices'] = "Faturas";
@@ -2151,7 +2151,7 @@ $_LANG['pricing']['transfer'] = "Transferir";
 $_LANG['pricing']['renewal'] = "Renovar";
 $_LANG['pricing']['selectExtCategory'] = "Escolha uma categoria acima.";
 
-$_LANG['navStore'] = "Loja";
+$_LANG['navStore'] = "Nossos Produtos";
 $_LANG['navBrowseProductsServices'] = "Procurar Todos";
 
 $_LANG['navWebsiteSecurity'] = "Website & Segurança";
