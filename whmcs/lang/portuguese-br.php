@@ -2564,4 +2564,92 @@ $_LANG['store']['websiteBuilder']['upgrade']['to'] = "Upgrade to :product for :a
 $_LANG['store']['websiteBuilder']['upgrade']['noPlans'] = "No active Weebly plans found";
 $_LANG['store']['websiteBuilder']['upgrade']['loggedInAs'] = "You are currently logged in as :email";
 $_LANG['store']['websiteBuilder']['upgrade']['switchUser'] = "Logout/switch user";
+
+
+$_LANG['tax']['taxLabel'] = "Tax ID";
+$_LANG['tax']['vatLabel'] = "VAT Number";
+$_LANG['tax']['errorInvalid'] = "The supplied :taxLabel is not valid";
+
+$_LANG['fraud']['checkConfiguration'] = "An error occurred with the Fraud Check. Please contact support.";
+$_LANG['fraud']['title'] = "Fraud Check";
+$_LANG['fraud']['error'] = "Error";
+$_LANG['fraud']['manualReview'] = "Your order has been held for manual review.<br /><br />If you feel you have received this message in error, then please accept our apologies and <a href=\"submitticket.php\">submit a support ticket</a> to our Customer Service Team.  Thank you.";
+$_LANG['fraud']['highFraudRiskScore'] = "Your order has been flagged as potentially high risk and therefore it has been held for manual review.<br /><br />If you feel you have received this message in error, then please accept our apologies and <a href=\"submitticket.php\">submit a support ticket</a> to our Customer Service Team.  Thank you.";
+$_LANG['fraud']['countryMismatch'] = "The country of your IP address did not match the billing address country you entered so we cannot accept your order";
+$_LANG['fraud']['highRiskCountry'] = "Unfortunately, we are unable to accept your order as there has been a lot of fraudulent activity from your country. If you want to arrange an alternative means of payment, please contact us.";
+$_LANG['fraud']['anonymousProxy'] = "We do not allow orders to be placed using an Anonymous Proxy";
+
+$_LANG['navMarketConnectService']['codeguard'] = "Website Backup";
+$_LANG['store']['codeguard']['cartTitle'] = "CodeGuard Backup";
+$_LANG['store']['codeguard']['cartShortDescription'] = "The fastest, most reliable website backup service, which tracks all of your changes daily.";
+$_LANG['store']['codeGuard']['title'] = "CodeGuard Backup";
+$_LANG['store']['codeGuard']['headline'] = "Protect <span>your website</span> with daily automated backups";
+$_LANG['store']['codeGuard']['tagline'] = "Get protection against viruses, hackers and even your own code accidentally breaking your site with CodeGuard Website Backup.";
+$_LANG['store']['codeGuard']['tab']['overview'] = "Overview";
+$_LANG['store']['codeGuard']['tab']['pricing'] = "Pricing";
+$_LANG['store']['codeGuard']['tab']['features'] = "Features";
+$_LANG['store']['codeGuard']['tab']['faq'] = "FAQ";
+$_LANG['store']['codeGuard']['leadTitle'] = "<strong><em>Every 0.65 seconds</em></strong>, a new web page is infected with malware.";
+$_LANG['store']['codeGuard']['leadText1'] = "Protect your site from <strong>data loss and corruption</strong>, as well as against threats from <strong>viruses, hackers and malware</strong> with Daily Automated Website Backups from CodeGuard.";
+$_LANG['store']['codeGuard']['leadText2'] = "With CodeGuard Website Backup, your website is backed up daily and if disaster strikes, you can restore your site to a previous point in time at the click of a button.";
+$_LANG['store']['codeGuard']['dailyBackup'] = "Automatic Daily Backups";
+$_LANG['store']['codeGuard']['malwareProtection'] = "Malware Detection and Restore";
+$_LANG['store']['codeGuard']['timeMachine'] = "Website Time Machine";
+$_LANG['store']['codeGuard']['wpPlugin'] = "WordPress Plugin Updates";
+$_LANG['store']['codeGuard']['changeAlerts'] = "File Change Alert Monitoring";
+$_LANG['store']['codeGuard']['features']['dailyBackup'] = "Daily Automatic Website Backups";
+$_LANG['store']['codeGuard']['features']['dailyBackupDescription'] = "Secure your website with automated daily backups stored offsite with built-in redundancy.";
+$_LANG['store']['codeGuard']['features']['unlimitedFiles'] = "Unlimited Files & Databases";
+$_LANG['store']['codeGuard']['features']['unlimitedFilesDescription'] = "Backup an unlimited number of files and databases - you are restricted only by the storage space you use.";
+$_LANG['store']['codeGuard']['features']['oneClickRestore'] = "One-Click Restores";
+$_LANG['store']['codeGuard']['features']['oneClickRestoreDescription'] = "A simple restore process makes it easy to rollback a single file or your entire website to a previous version.";
+$_LANG['store']['codeGuard']['features']['malwareMonitoring'] = "Malware Monitoring";
+$_LANG['store']['codeGuard']['features']['malwareMonitoringDescription'] = "Rest easy knowing CodeGuard is diligently checking your site for changes every day.";
+$_LANG['store']['codeGuard']['features']['wp'] = "Automatic WordPress Updates";
+$_LANG['store']['codeGuard']['features']['wpDescription'] = "Automatically update WordPress and its plugins to keep it secure with auto recovery in case of problems.";
+$_LANG['store']['codeGuard']['features']['fileMonitoring'] = "File Change Monitoring";
+$_LANG['store']['codeGuard']['features']['fileMonitoringDescription'] = "Get notified by email anytime something changes within the source code of your site.";
+$_LANG['store']['codeGuard']['features']['servers'] = "Staging of Restores";
+$_LANG['store']['codeGuard']['features']['serversDescription'] = "Quickly test any backed up site with simple and automated staging prior to restore.";
+$_LANG['store']['codeGuard']['features']['email'] = "Email Backup";
+$_LANG['store']['codeGuard']['features']['emailDescription'] = "Get protection for your emails too as they are backed up as part of your websites files.";
+$_LANG['store']['codeGuard']['features']['api'] = "Full Automation";
+$_LANG['store']['codeGuard']['features']['apiDescription'] = "Completely hands free setup and ongoing backups with automated notifications if things go wrong.";
+$_LANG['store']['codeGuard']['chooseBackupPlan'] = "Choose Backup Storage";
+$_LANG['store']['codeGuard']['faq']['title'] = "Frequently Asked Questions";
+$_LANG['store']['codeGuard']['faq']['q1'] = "What is CodeGuard?";
+$_LANG['store']['codeGuard']['faq']['a1'] = "CodeGuard is a fully automated website backup service that gives you complete protection against data loss and malware.";
+$_LANG['store']['codeGuard']['faq']['q2'] = "Why do I need CodeGuard?";
+$_LANG['store']['codeGuard']['faq']['a2'] = "CodeGuard provides an independent offsite backup solution for your website along with daily monitoring to ensure your website is online and malware free.";
+$_LANG['store']['codeGuard']['faq']['q3'] = "How does it work?";
+$_LANG['store']['codeGuard']['faq']['a3'] = "CodeGuard takes daily automated snapshots of your website. Using these snapshots, you can restore your entire site or a specific file to an earlier version at any time.";
+$_LANG['store']['codeGuard']['faq']['q4'] = "What if I run out of storage?";
+$_LANG['store']['codeGuard']['faq']['a4'] = "Switching plans is easy! You can upgrade and increase your disk storage allowance in just a few simple clicks via our client area.";
+$_LANG['store']['codeGuard']['faq']['q5'] = "Where are backups stored?";
+$_LANG['store']['codeGuard']['faq']['a5'] = "Backups are stored on Amazon Web Services Simple Storage System which provides market leading resiliance and redundancy for your backups.";
+$_LANG['store']['codeGuard']['faq']['q6'] = "Are the backups encrypted?";
+$_LANG['store']['codeGuard']['faq']['a6'] = "Yes, backups are stored encrypted using the AES-256 Encryption Standard.";
+$_LANG['store']['codeGuard']['faq']['q7'] = "Do you backup databases?";
+$_LANG['store']['codeGuard']['faq']['a7'] = "Yes, databases can be backed up also. Database backups are supported for MySQL and MSSQL databases.";
+$_LANG['store']['codeGuard']['faq']['q8'] = "What is File Change Alert Monitoring?";
+$_LANG['store']['codeGuard']['faq']['a8'] = "CodeGuard can monitor and notify you by email when your website changes to alert you to new threats and malware.";
+$_LANG['store']['codeGuard']['faq']['q9'] = "What happens if my site gets infected?";
+$_LANG['store']['codeGuard']['faq']['a9'] = "With CodeGuard's daily snapshots, if your website gets attacked, you can restore to a previous uninfected version at any time.";
+
+$_LANG['store']['codeguard']['promo']['sidebar']['title'] = "Add Website Backup";
+$_LANG['store']['codeguard']['promo']['sidebar']['body'] = "Protect your website with daily automated backups";
+
+$_LANG['marketConnect']['codeguard']['manage'] = "Login to CodeGuard Control Panel";
+
+$_LANG['sslState']['sslInactive'] = "No SSL Detected. Click here to browse SSL options";
+$_LANG['sslState']['sslActive'] = "Valid SSL Detected. Expires :expiry";
+$_LANG['sslState']['sslUnknown'] = "Unable to validate SSL status";
+$_LANG['sslState']['validSsl'] = "Valid SSL Detected";
+$_LANG['sslState']['noSsl'] = "No SSL Detected";
+$_LANG['sslState']['sslInactiveService'] = "Service inactive";
+$_LANG['sslState']['sslInactiveDomain'] = "Domain inactive";
+$_LANG['sslState']['startDate'] = "SSL Start Date";
+$_LANG['sslState']['expiryDate'] = "SSL Expiry Date";
+$_LANG['sslState']['issuerName'] = "SSL Issuer Name";
+$_LANG['sslState']['sslStatus'] = "SSL Status";
 ////////// End of portuguese-br language file.  Do not place any translation strings below this line!
